@@ -27,7 +27,7 @@
                                                            @Override
                                                            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                                                                String friendListPicked= "your best pal is " +
-                                                                       String.valueOf(adapterView.getItemAtPosition(position));
+                                                                       String.valueOf(adapterView.getItemIdAtPosition(position));
                                                                Toast.makeText(MainActivity.this, friendListPicked, Toast.LENGTH_SHORT).show() ;
                                                            }
                                                        });
